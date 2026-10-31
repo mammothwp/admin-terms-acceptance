@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mmwp/terms-display",
+	"version": "1.0.0",
+	"title": "Terms & Conditions",
+	"description": "Shows the current Terms & Conditions — version, effective date and summary — with the full text in a modal.",
+	"category": "widgets",
+	"icon": "media-text",
+	"keywords": [ "terms", "conditions", "legal", "policy" ],
+	"textdomain": "mammoth-acceptance-logs",
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": ""
+		},
+		"showHistory": {
+			"type": "boolean",
+			"default": true
+		},
+		"historyLimit": {
+			"type": "number",
+			"default": 10
+		},
+		"buttonLabel": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"editorScript": "mmwp-terms-block-editor",
+	"viewScript": "file:../../assets/js/terms-block.js",
+	"style": "file:../../assets/css/terms-block.css"
+}

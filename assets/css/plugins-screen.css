@@ -1,0 +1,49 @@
+/* Delete-confirmation modal on the Plugins screen. */
+.mmwp-uninstall-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 100000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.mmwp-uninstall-dialog {
+	box-sizing: border-box;
+	width: min(560px, calc(100vw - 32px));
+	max-height: calc(100vh - 32px);
+	overflow: auto;
+	padding: 24px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.mmwp-uninstall-dialog h2 {
+	margin-top: 0;
+}
+
+.mmwp-uninstall-option {
+	display: block;
+	margin: 12px 0;
+}
+
+.mmwp-uninstall-confirm[hidden],
+.mmwp-uninstall-error[hidden] {
+	display: none;
+}
+
+.mmwp-uninstall-confirm input {
+	width: 100%;
+}
+
+.mmwp-uninstall-error {
+	color: #d63638;
+}
+
+.mmwp-uninstall-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	margin-top: 16px;
+}

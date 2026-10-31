@@ -1,0 +1,12 @@
+vendor/
+.scratch/
+/dist/
+/build/
+*.zip
+.phpunit.result.cache
+.phpcs-cache
+plugin-check.json
+plugin-check.txt
+node_modules/
+/CLAUDE.md
+/PLAN.md

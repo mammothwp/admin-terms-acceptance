@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"cases": [
+		{
+			"id": "mmwp-acceptance-logs-smoke",
+			"label": "Acceptance Logs: boot, record, read back, permissions, CLI",
+			"category": "acceptance-logs",
+			"layers": ["rest", "cli", "ability"],
+			"class": "MammothWP\\AcceptanceLogs\\SelfTest\\SmokeCase",
+			"requires": [],
+			"args": {},
+			"covers": {
+				"rest": ["mmwp/v1/terms/version", "mmwp/v1/terms/versions", "mmwp/v1/terms/acceptances"],
+				"cli": ["mmwp terms list", "mmwp terms acceptances"],
+				"ability": ["mmwp-acceptance-logs/list-acceptances"]
+			}
+		}
+	]
+}

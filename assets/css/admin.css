@@ -1,0 +1,13 @@
+/* Admin screens of MammothWP Acceptance Logs. Colours follow the wp-admin palette. */
+.mmwp-status--ok { color: #00a32a; }
+.mmwp-status--error { color: #d63638; }
+.mmwp-status--muted { color: #787c82; }
+.mmwp-status--warn { color: #dba617; }
+.mmwp-list { list-style: disc; margin-left: 20px; }
+.mmwp-table-wide { max-width: 900px; }
+.mmwp-table-narrow { max-width: 600px; }
+.mmwp-col-label { width: 200px; }
+.mmwp-block-label { display: block; margin-bottom: 4px; }
+.mmwp-align-end { text-align: right; }
+.mmwp-inline-form { display: inline; }
+.mmwp-spaced-form { margin-top: 12px; }

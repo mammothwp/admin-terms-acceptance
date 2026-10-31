@@ -1,0 +1,89 @@
+.mmwp-terms-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 999999;
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.mmwp-terms-modal {
+	background: #fff;
+	max-width: 640px;
+	width: 100%;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+	padding: 24px 28px;
+}
+
+.mmwp-terms-modal h2 {
+	margin-top: 0;
+}
+
+.mmwp-terms-content {
+	overflow-y: auto;
+	border: 1px solid #dcdcde;
+	padding: 16px;
+	margin-bottom: 16px;
+	flex: 1;
+}
+
+.mmwp-terms-actions {
+	margin: 0;
+	display: flex;
+	gap: 8px;
+}
+
+.mmwp-terms-version {
+	margin-bottom: 12px;
+}
+
+.mmwp-terms-version-meta {
+	margin: 0 0 8px;
+	color: #50575e;
+	font-size: 13px;
+	display: none;
+}
+
+.mmwp-terms-version-meta .mmwp-terms-effective {
+	margin-left: 12px;
+}
+
+.mmwp-terms-changes {
+	background: #f0f6fc;
+	border-left: 4px solid #72aee6;
+	padding: 10px 14px;
+	margin-bottom: 12px;
+}
+
+.mmwp-terms-changes h3 {
+	margin: 0 0 6px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+
+.mmwp-terms-changes p {
+	margin: 0 0 6px;
+	font-size: 13px;
+}
+
+.mmwp-terms-privacy {
+	color: #50575e;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+
+.mmwp-terms-error {
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+	color: #8a2424;
+	padding: 10px 14px;
+	margin: 0 0 12px;
+	font-size: 13px;
+}

@@ -1,0 +1,1063 @@
+# Copyright (C) 2026 Mammoth WP
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MammothWP Acceptance Logs 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mammoth-acceptance-logs\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-31T17:54:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: mammoth-acceptance-logs\n"
+
+#. Plugin Name of the plugin
+#: mammoth-acceptance-logs.php
+msgid "MammothWP Acceptance Logs"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: mammoth-acceptance-logs.php
+msgid "https://mammothwp.com/plugins/mammothwp-acceptance-logs/"
+msgstr ""
+
+#. Description of the plugin
+#: mammoth-acceptance-logs.php
+msgid "Records that your logged-in users accepted your terms. Versioned, role-scoped, tamper-evident acceptance logs with a permanent archive of every version."
+msgstr ""
+
+#. Author of the plugin
+#: mammoth-acceptance-logs.php
+msgid "Mammoth WP"
+msgstr ""
+
+#. Author URI of the plugin
+#: mammoth-acceptance-logs.php
+msgid "https://mammothwp.com"
+msgstr ""
+
+#: src/Admin/AcceptanceLogPage.php:49
+#: src/Admin/AcceptanceLogPage.php:50
+#: src/Admin/views/acceptance-log.php:28
+msgid "Terms acceptance log"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:62
+msgid "Record"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:63
+msgid "User"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:64
+#: src/Admin/views/settings-page.php:71
+#: src/Admin/views/settings-page.php:227
+#: src/Frontend/views/popup.php:39
+msgid "Version"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:65
+#: src/Admin/UserTermsColumn.php:121
+msgid "Accepted"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:66
+msgid "Origin"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:67
+msgid "Receipt"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:68
+msgid "Integrity"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:121
+msgid "account deleted"
+msgstr ""
+
+#. translators: %s: date
+#: src/Admin/AcceptanceLogTable.php:144
+#, php-format
+msgid "effective %s"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:182
+msgid "erased under retention policy"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:192
+msgid "no browser identification recorded"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:206
+msgid "sent"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:210
+msgid "disabled"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:217
+msgid "failed"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:220
+msgid "not recorded"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:230
+msgid "altered"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:234
+msgid "context altered"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:237
+msgid "verified"
+msgstr ""
+
+#: src/Admin/AcceptanceLogTable.php:241
+msgid "No acceptances recorded yet."
+msgstr ""
+
+#. translators: 1: version label, 2: "Review now" link
+#: src/Admin/AdminNotice.php:53
+#, php-format
+msgid "Please review and accept version %1$s of our Terms &amp; Conditions to continue using this site. %2$s"
+msgstr ""
+
+#: src/Admin/AdminNotice.php:55
+#: src/Admin/AdminNotice.php:60
+msgid "Review now"
+msgstr ""
+
+#. translators: %s: "Review now" link
+#: src/Admin/AdminNotice.php:59
+#, php-format
+msgid "Please review and accept our Terms &amp; Conditions to continue using this site. %s"
+msgstr ""
+
+#: src/Admin/AdminNotice.php:109
+msgid "Terms & Conditions text has been entered but no version has been published yet, so nobody is being asked to accept anything."
+msgstr ""
+
+#: src/Admin/AdminNotice.php:111
+msgid "Publish a version"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:73
+#: src/Admin/SettingsPage.php:74
+#: src/Admin/UserTermsColumn.php:65
+#: src/Admin/UserTermsColumn.php:85
+#: src/Admin/views/settings-page.php:53
+#: blocks/terms-display/editor.js:80
+msgid "Terms & Conditions"
+msgstr ""
+
+#: src/Admin/UserTermsColumn.php:88
+msgid "Acceptance status"
+msgstr ""
+
+#: src/Admin/UserTermsColumn.php:93
+msgid "View this user's acceptance records"
+msgstr ""
+
+#: src/Admin/UserTermsColumn.php:110
+msgid "Pending"
+msgstr ""
+
+#: src/Admin/UserTermsColumn.php:113
+msgid "Not required"
+msgstr ""
+
+#. translators: %s: date/time the user accepted
+#: src/Admin/UserTermsColumn.php:137
+#, php-format
+msgid "Accepted on %s"
+msgstr ""
+
+#. translators: 1: version label, 2: date/time the user accepted
+#: src/Admin/UserTermsColumn.php:142
+#, php-format
+msgid "Accepted %1$s on %2$s"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:31
+msgid "Every acceptance ever recorded. This log is append-only: records cannot be edited or deleted from anywhere in the admin, which is what allows it to be relied on as evidence."
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:35
+msgid "Verify integrity"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:36
+msgid "Export CSV"
+msgstr ""
+
+#. translators: 1: number checked, 2: number valid
+#: src/Admin/views/acceptance-log.php:50
+#, php-format
+msgid "Checked %1$d records; %2$d verified."
+msgstr ""
+
+#. translators: 1: altered records, 2: altered contexts, 3: chain breaks
+#: src/Admin/views/acceptance-log.php:62
+#, php-format
+msgid "%1$d records with an altered signature, %2$d with altered context, %3$d chain breaks. A failure here means the stored data no longer matches what was signed when it was written — investigate before relying on the affected records."
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:85
+msgid "Filter by user ID"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:86
+msgid "User ID"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:88
+msgid "Filter by version"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:90
+msgid "All versions"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:98
+msgid "From date"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:101
+msgid "To date"
+msgstr ""
+
+#: src/Admin/views/acceptance-log.php:104
+msgid "Filter"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:39
+msgid "New version published. Everyone in scope will be asked to accept it, and the previous version has been preserved in the archive."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:40
+msgid "Settings saved. The terms text is unchanged, so nobody has been asked to accept again."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:41
+msgid "Manager list updated."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:42
+msgid "Say what changed before saving. The summary is shown to people above the terms, and a version nobody described is much weaker evidence that they knew what they were accepting."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:43
+msgid "The effective date is too far away. Enter a number of days from today, up to 3650."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:44
+msgid "That user could not be added as a manager. Only administrators of this site can be appointed."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:45
+msgid "Select a user before clicking Add manager."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:46
+msgid "Uninstall choice saved."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:47
+msgid "Type the plugin name exactly to confirm deleting the evidence. The choice was not changed."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:48
+msgid "Only users who can delete plugins can change this."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:49
+msgid "The last manager cannot be removed — that would leave nobody able to reach these screens."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:62
+msgid "This is what logged-in users are asked to accept. Publishing a new version preserves the previous one permanently and asks everyone in scope to accept again."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:63
+msgid "View the acceptance log"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:67
+msgid "Current version"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:75
+#: src/Notifications/views/certificate.php:71
+#: src/Notifications/views/terms-snapshot.php:43
+#: src/Privacy/PrivacyExporter.php:106
+msgid "Effective date"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:76
+msgid "Not set"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:79
+#: src/Admin/views/settings-page.php:229
+msgid "Published (UTC)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:83
+#: src/Notifications/views/certificate.php:74
+#: src/Notifications/views/terms-snapshot.php:47
+#: src/Privacy/PrivacyExporter.php:110
+msgid "Version identifier"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:87
+msgid "PDF snapshot"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:91
+msgid "Download"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:93
+msgid "Not available — install dompdf (composer install) to generate PDF copies. The full text of every version is stored in the database regardless, so no evidence depends on this."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:104
+msgid "Version details"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:107
+#: src/Notifications/views/certificate.php:67
+#: src/Notifications/views/terms-snapshot.php:39
+#: src/Privacy/PrivacyExporter.php:102
+msgid "Version number"
+msgstr ""
+
+#. translators: %s: current version number
+#: src/Admin/views/settings-page.php:116
+#, php-format
+msgid "(current version: %s)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:123
+msgid "Assigned automatically. Every change to the text below is published as the next number in the sequence — 1, then 2, then 3 — and this is what a person sees named in their receipt and in any dispute. Saving without changing the text does not use up a number."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:127
+msgid "Takes effect in (days)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:131
+msgid "Counted from today. Defaults to 7 days' notice; 0 means the version takes effect the day it is published."
+msgstr ""
+
+#. translators: %s: currently recorded effective date
+#: src/Admin/views/settings-page.php:137
+#, php-format
+msgid "Currently recorded: %s"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:146
+msgid "Summary of changes"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:149
+msgid "Required. Shown to returning users above the terms. Saying plainly what changed is much stronger evidence that someone knowingly accepted a new version than silently showing them the text again."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:154
+msgid "Content"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:167
+msgid "Who has to accept"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:169
+msgid "Leave everything unchecked to require all roles (the default). Guests and logged-out visitors are never included."
+msgstr ""
+
+#. translators: %s: filter names
+#: src/Admin/views/settings-page.php:190
+#, php-format
+msgid "Need to exclude specific roles or individual users instead? Use the %s filters — see the plugin README."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:196
+msgid "Retention"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:199
+msgid "Dispute period (years)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:206
+msgid "Anonymisation"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:210
+msgid "Erase IP address and browser identification once the period above has elapsed"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:212
+msgid "Records themselves are never deleted, and published versions of the terms are never deleted."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:217
+msgid "Save Terms & Conditions"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:220
+msgid "Version history"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:222
+msgid "No versions published yet."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:228
+#: src/Frontend/views/popup.php:45
+msgid "Effective"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:230
+msgid "Withdrawn (UTC)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:231
+msgid "Source"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:232
+msgid "Identifier"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:233
+msgid "Snapshot"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:242
+msgid "current"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:253
+msgid "PDF"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:263
+msgid "Republishing text identical to an earlier version creates a new entry here. That is deliberate: a re-publication is a new event, with its own date and its own acceptances."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:267
+msgid "Who can manage this"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:269
+msgid "Only the users listed here can see this screen, the acceptance log, or the Terms column on the Users list. Being an administrator is not enough on its own — the acceptance log is evidence about other people, so access to it is granted explicitly."
+msgstr ""
+
+#. translators: %d: user ID
+#: src/Admin/views/settings-page.php:281
+#, php-format
+msgid "Deleted user #%d"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:290
+msgid "Remove"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:293
+msgid "Last manager — cannot be removed"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:318
+msgid "Every administrator on this site is already a manager."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:321
+msgid "Add a manager:"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:323
+msgid "— Select a user —"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:330
+msgid "Add manager"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:334
+msgid "Record integrity"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:338
+msgid "Records are signed with a key defined in wp-config.php. Someone with database access alone can alter a record but cannot produce a matching signature, so the alteration is detectable."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:343
+msgid "Records are signed with a key stored in the database. This detects accidental corruption and careless direct edits, but someone who has the database also has the key and could re-sign an altered record."
+msgstr ""
+
+#: src/Admin/views/settings-page.php:346
+msgid "To strengthen this, add a line like the following to wp-config.php and keep it secret. Existing records keep verifying against the old key only until you switch, so set this up before you rely on the log:"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:352
+msgid "When this plugin is deleted"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:357
+msgid "What happens to the acceptance evidence when the plugin is deleted"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:360
+msgid "Keep acceptance evidence (recommended)"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:364
+msgid "Delete all acceptance evidence permanently"
+msgstr ""
+
+#. translators: %s: plugin name to type
+#: src/Admin/views/settings-page.php:369
+#, php-format
+msgid "To choose deletion, type the plugin name (%s) here:"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:374
+msgid "Settings are always removed on deletion. You can also purge the evidence now with: wp mmwp terms purge --force"
+msgstr ""
+
+#: src/Admin/views/settings-page.php:375
+msgid "Save uninstall choice"
+msgstr ""
+
+#: src/Api/PublicRestController.php:122
+#: src/Api/TermsService.php:45
+msgid "No terms version has been published yet."
+msgstr ""
+
+#: src/Api/PublicRestController.php:136
+#: src/Api/TermsService.php:72
+#: src/Storage/SnapshotDownloadController.php:61
+msgid "That terms version does not exist."
+msgstr ""
+
+#: src/Api/TermsApi.php:56
+msgid "Refusing to publish empty terms: nobody can meaningfully accept a blank document."
+msgstr ""
+
+#: src/Api/TermsApi.php:64
+msgid "effective_date must be a valid date in Y-m-d format."
+msgstr ""
+
+#. translators: %s: version number
+#: src/Api/TermsApi.php:78
+#, php-format
+msgid "Version number \"%s\" has already been published. Give this publication its own number."
+msgstr ""
+
+#: src/Api/TermsApi.php:90
+msgid "The version could not be archived. If a mmwp_terms_version_meta filter supplied a version number that is already in use, the publication is refused rather than creating a duplicate. Check the audit event log."
+msgstr ""
+
+#: src/Api/TermsResource.php:46
+#: src/Api/TermsResource.php:77
+msgid "Acceptance Logs"
+msgstr ""
+
+#: src/Api/TermsResource.php:78
+msgid "Terms versions and the log of who accepted them."
+msgstr ""
+
+#: src/Api/TermsResource.php:86
+msgid "Show the active terms version"
+msgstr ""
+
+#: src/Api/TermsResource.php:87
+msgid "Returns the terms version users must currently have accepted."
+msgstr ""
+
+#: src/Api/TermsResource.php:93
+msgid "List archived terms versions"
+msgstr ""
+
+#: src/Api/TermsResource.php:94
+msgid "Lists every archived terms version, newest first."
+msgstr ""
+
+#: src/Api/TermsResource.php:98
+#: src/Api/TermsResource.php:144
+msgid "Rows to return."
+msgstr ""
+
+#: src/Api/TermsResource.php:99
+#: src/Api/TermsResource.php:145
+msgid "Rows to skip."
+msgstr ""
+
+#: src/Api/TermsResource.php:106
+msgid "Get one archived terms version"
+msgstr ""
+
+#: src/Api/TermsResource.php:107
+msgid "Returns one archived terms version, including its full text."
+msgstr ""
+
+#: src/Api/TermsResource.php:109
+msgid "Version ID."
+msgstr ""
+
+#: src/Api/TermsResource.php:114
+msgid "Publish a new terms version"
+msgstr ""
+
+#: src/Api/TermsResource.php:115
+msgid "Publishes the text as the active version. Everyone in scope is asked to accept it again."
+msgstr ""
+
+#: src/Api/TermsResource.php:118
+msgid "The terms text. HTML is filtered through wp_kses_post()."
+msgstr ""
+
+#: src/Api/TermsResource.php:119
+msgid "Human version number, e.g. 2.1. Derived if omitted."
+msgstr ""
+
+#: src/Api/TermsResource.php:120
+msgid "Effective date, Y-m-d."
+msgstr ""
+
+#: src/Api/TermsResource.php:121
+msgid "Shown to returning users above the terms."
+msgstr ""
+
+#: src/Api/TermsResource.php:122
+msgid "Do nothing if the text matches the active version."
+msgstr ""
+
+#: src/Api/TermsResource.php:129
+msgid "Re-read the terms content source"
+msgstr ""
+
+#: src/Api/TermsResource.php:130
+msgid "Re-reads the terms content source now instead of waiting for the daily check, and publishes a new version if it changed."
+msgstr ""
+
+#: src/Api/TermsResource.php:135
+msgid "List acceptance log entries"
+msgstr ""
+
+#: src/Api/TermsResource.php:136
+msgid "Read-only, redacted export of the acceptance log. Restricted to the plugin managers."
+msgstr ""
+
+#: src/Api/TermsResource.php:140
+msgid "Only this user. 0 for everyone."
+msgstr ""
+
+#: src/Api/TermsResource.php:141
+msgid "Only this terms version. 0 for all."
+msgstr ""
+
+#: src/Api/TermsResource.php:142
+msgid "First day, Y-m-d (UTC)."
+msgstr ""
+
+#: src/Api/TermsResource.php:143
+msgid "Last day, Y-m-d (UTC)."
+msgstr ""
+
+#: src/Api/TermsResource.php:152
+msgid "Report or permanently delete all acceptance evidence"
+msgstr ""
+
+#: src/Api/TermsResource.php:153
+msgid "Without --force this only reports what exists. With --force it drops the log, the version archive and the audit events."
+msgstr ""
+
+#: src/Api/TermsResource.php:157
+msgid "Report only, even with --force."
+msgstr ""
+
+#: src/Api/TermsResource.php:158
+msgid "Actually delete. Irreversible."
+msgstr ""
+
+#: src/Api/TermsResource.php:161
+msgid "Deleting evidence is deliberately not offered over REST or abilities."
+msgstr ""
+
+#: src/Audit/IntegrityVerifier.php:69
+msgid "record signature does not match"
+msgstr ""
+
+#: src/Audit/IntegrityVerifier.php:74
+msgid "context signature does not match"
+msgstr ""
+
+#: src/Audit/IntegrityVerifier.php:85
+msgid "chain link does not match the preceding record"
+msgstr ""
+
+#: src/Blocks/TermsDisplayBlock.php:85
+#: blocks/terms-display/editor.js:40
+msgid "Read the full terms"
+msgstr ""
+
+#. translators: %s: version number or short hash.
+#: src/Blocks/views/terms-display.php:35
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#. translators: %s: date the version took effect.
+#: src/Blocks/views/terms-display.php:46
+#, php-format
+msgid "Effective %s"
+msgstr ""
+
+#: src/Blocks/views/terms-display.php:84
+msgid "Previous versions"
+msgstr ""
+
+#: src/Blocks/views/terms-display.php:105
+msgid "We could not load these terms. Please try again."
+msgstr ""
+
+#: src/Blocks/views/terms-display.php:106
+msgid "Loading…"
+msgstr ""
+
+#: src/Blocks/views/terms-display.php:113
+msgid "Close"
+msgstr ""
+
+#: src/Frontend/AjaxController.php:46
+msgid "We could not record your acceptance. Please reload the page and try again — if this keeps happening, contact the site administrator."
+msgstr ""
+
+#: src/Frontend/AjaxController.php:54
+msgid "Thank you — your acceptance has been recorded."
+msgstr ""
+
+#: src/Frontend/AjaxController.php:80
+msgid "You must be logged in."
+msgstr ""
+
+#: src/Frontend/PopupRenderer.php:68
+msgid "We could not record your acceptance. Please reload the page and try again."
+msgstr ""
+
+#: src/Frontend/PopupRenderer.php:94
+msgid "Please review our Terms & Conditions"
+msgstr ""
+
+#: src/Frontend/PopupRenderer.php:95
+msgid "I accept"
+msgstr ""
+
+#: src/Frontend/PopupRenderer.php:96
+msgid "Skip for now"
+msgstr ""
+
+#: src/Frontend/views/popup.php:25
+msgid "Our Terms & Conditions have been updated"
+msgstr ""
+
+#: src/Frontend/views/popup.php:53
+msgid "What changed in this version"
+msgstr ""
+
+#: src/Frontend/views/popup.php:67
+msgid "Accepting these terms is required to continue using your account. Your acceptance is recorded with the date and time, your IP address and your browser identification, as proof that these terms were accepted."
+msgstr ""
+
+#. translators: %s: site name
+#: src/Notifications/CertificateMailer.php:145
+#, php-format
+msgid "%s — your Terms & Conditions acceptance"
+msgstr ""
+
+#. translators: 1: user display name, 2: site name, 3: date/time
+#: src/Notifications/CertificateMailer.php:151
+#, php-format
+msgid ""
+"Hi %1$s,\n"
+"\n"
+"This confirms you accepted the Terms & Conditions for %2$s on %3$s.\n"
+"\n"
+"If a PDF is attached, it contains the exact version you accepted for your records."
+msgstr ""
+
+#. translators: 1: user display name, 2: user email, 3: date/time
+#: src/Notifications/CertificateMailer.php:205
+#, php-format
+msgid "%1$s (%2$s) accepted the current Terms & Conditions on %3$s."
+msgstr ""
+
+#. translators: %s: site name
+#: src/Notifications/views/certificate.php:45
+#, php-format
+msgid "%s — Terms & Conditions Acceptance"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:48
+msgid "Accepted by"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:51
+#: src/Privacy/PrivacyExporter.php:94
+msgid "Accepted at (UTC)"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:56
+msgid "Accepted at (local)"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:77
+#: src/Privacy/PrivacyExporter.php:86
+msgid "Record reference"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:81
+#: src/Privacy/PrivacyExporter.php:135
+msgid "IP address"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:85
+msgid "Recorded on"
+msgstr ""
+
+#: src/Notifications/views/certificate.php:94
+msgid "This copy is provided for your records. The authoritative record of this acceptance is held on the site named above."
+msgstr ""
+
+#. translators: %s: site name
+#: src/Notifications/views/terms-snapshot.php:35
+#, php-format
+msgid "%s — Terms & Conditions"
+msgstr ""
+
+#: src/Notifications/views/terms-snapshot.php:46
+msgid "Published at (UTC)"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:43
+msgid "Terms & Conditions acceptance"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:50
+msgid "What we record and why"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:52
+msgid "When you accept our Terms & Conditions we record that acceptance so that both you and we can later establish which version of the terms was agreed, and when. This is an access-control and contractual-compliance record. It is not marketing profiling and it is not used to make automated decisions about you."
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:54
+msgid "Legal basis"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:56
+msgid "We rely on Article 6(1)(b) GDPR, because accepting the terms is necessary for the performance of the contract with you and for providing you access to the platform, and on Article 6(1)(f) GDPR, our legitimate interests in the security of the platform, in accountability, and in being able to demonstrate and defend what was agreed. We do not rely on consent (Article 6(1)(a)) for this processing, so you are not asked to consent and cannot withdraw consent to it; you can instead object on the grounds described below."
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:58
+msgid "Data recorded for each acceptance"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:60
+msgid "Your user account identifier, and your username and email address as they stood at that moment; the date and time in UTC together with the local time and time zone shown to you; the identifier, number and effective date of the version accepted; the action taken; the site the acceptance was made on; your IP address; and your browser identification (User-Agent). We do not use device fingerprinting and we do not collect MAC addresses or location data."
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:62
+msgid "Who else receives it"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:64
+msgid "A copy of the terms you accepted is emailed to you as a receipt. That email is handled by our email provider, which acts as a processor on our behalf. If that provider operates outside the European Economic Area, the transfer is covered by the safeguards described elsewhere in this policy. [Site operator: name your email provider here, and confirm where it stores and processes data.]"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:66
+msgid "How long we keep it"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:70
+msgid "Your rights"
+msgstr ""
+
+#: src/Privacy/PolicyContent.php:72
+msgid "You can request a copy of the acceptance records we hold about you. Because these records exist to establish and defend what was agreed, Article 17(3) GDPR limits the right to have them erased before the retention period above has elapsed; we will explain this if you ask us to delete them. You may object to processing based on our legitimate interests, and you may complain to the Hellenic Data Protection Authority."
+msgstr ""
+
+#: src/Privacy/PrivacyEraser.php:55
+#: src/Privacy/PrivacyExporter.php:40
+msgid "Terms & Conditions acceptance records"
+msgstr ""
+
+#. translators: %d: number of acceptance records
+#: src/Privacy/PrivacyEraser.php:100
+#, php-format
+msgid "%d Terms & Conditions acceptance record has been retained."
+msgid_plural "%d Terms & Conditions acceptance records have been retained."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Privacy/PrivacyEraser.php:108
+msgid "These records are not processed on the basis of consent. They are processed under Article 6(1)(b) GDPR, because accepting the terms is necessary for the contract and for providing access to the platform, and under Article 6(1)(f), for security, accountability and audit purposes. Article 17(3) GDPR limits the right to erasure where processing is necessary for compliance with a legal obligation and for the establishment, exercise or defence of legal claims, which applies to proof that the applicable terms were accepted."
+msgstr ""
+
+#: src/Privacy/PrivacyEraser.php:113
+msgid "The IP address and browser identification held against records whose retention period had already elapsed have now been erased."
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:65
+msgid "Terms & Conditions acceptances"
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:90
+msgid "Action"
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:98
+msgid "Accepted at (local time shown to you)"
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:114
+msgid "Site"
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:123
+msgid "IP address and browser identification"
+msgstr ""
+
+#. translators: %s: date/time
+#: src/Privacy/PrivacyExporter.php:126
+#, php-format
+msgid "Erased on %s, once the retention period for this record had elapsed."
+msgstr ""
+
+#: src/Privacy/PrivacyExporter.php:139
+msgid "Browser identification (User-Agent)"
+msgstr ""
+
+#. translators: %d: number of years
+#: src/Retention/RetentionCron.php:49
+#, php-format
+msgid "retention period of %d years elapsed"
+msgstr ""
+
+#. translators: %d: number of years
+#: src/Retention/RetentionPolicy.php:100
+#, php-format
+msgid "Acceptance records are kept for as long as the account exists, and then for a further %d years — the period in which a contractual claim could still be brought that the record would answer. After that the IP address and browser identification are erased, while the fact, version and time of acceptance are retained as an accountability record. Published versions of the terms are never deleted, because an acceptance whose text cannot be reproduced has little evidential value."
+msgstr ""
+
+#: src/Storage/SnapshotDownloadController.php:62
+msgid "Not found"
+msgstr ""
+
+#: src/Storage/SnapshotDownloadController.php:73
+msgid "PDF copies are unavailable because dompdf is not installed. The full text of this version is still shown on the Terms & Conditions screen."
+msgstr ""
+
+#: src/Storage/SnapshotDownloadController.php:74
+msgid "PDF unavailable"
+msgstr ""
+
+#: src/Support/ManagerAccess.php:226
+msgid "You are not allowed to manage Terms & Conditions on this site."
+msgstr ""
+
+#: src/Support/ManagerAccess.php:227
+msgid "Forbidden"
+msgstr ""
+
+#: src/Uninstall/UninstallChoiceController.php:39
+msgid "You are not allowed to do that."
+msgstr ""
+
+#: src/Uninstall/UninstallPolicy.php:51
+msgid "Unknown uninstall choice."
+msgstr ""
+
+#: src/Uninstall/UninstallPolicy.php:55
+msgid "Type the plugin name exactly to confirm deleting the evidence."
+msgstr ""
+
+#: src/Versioning/VersionArchivist.php:77
+msgid "Recorded automatically: the terms source changed outside the settings screen."
+msgstr ""
+
+#: blocks/terms-display/editor.js:29
+msgid "Terms display"
+msgstr ""
+
+#: blocks/terms-display/editor.js:31
+msgid "Heading"
+msgstr ""
+
+#: blocks/terms-display/editor.js:32
+msgid "Leave empty to show no heading."
+msgstr ""
+
+#: blocks/terms-display/editor.js:39
+msgid "Button label"
+msgstr ""
+
+#: blocks/terms-display/editor.js:47
+msgid "Show previous versions"
+msgstr ""
+
+#: blocks/terms-display/editor.js:48
+msgid "Lists superseded versions below the current one. Their text stays available."
+msgstr ""
+
+#: blocks/terms-display/editor.js:59
+msgid "Previous versions to list"
+msgstr ""
+
+#: blocks/terms-display/editor.js:81
+msgid "No terms version has been published yet. Publish one from the Terms settings screen."
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block title"
+msgid "Terms & Conditions"
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block description"
+msgid "Shows the current Terms & Conditions — version, effective date and summary — with the full text in a modal."
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block keyword"
+msgid "terms"
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block keyword"
+msgid "conditions"
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block keyword"
+msgid "legal"
+msgstr ""
+
+#: blocks/terms-display/block.json
+msgctxt "block keyword"
+msgid "policy"
+msgstr ""

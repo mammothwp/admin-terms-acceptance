@@ -1,0 +1,99 @@
+/*
+ * Public terms block. Unlike popup.css this runs inside the site's theme, so
+ * it inherits typography and colour and styles only structure — a theme that
+ * disagrees with any of this should win without a specificity fight.
+ */
+
+.mmwp-terms-block__heading {
+	margin-top: 0;
+}
+
+.mmwp-terms-block__current {
+	border: 1px solid currentColor;
+	border-color: rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	padding: 1em 1.25em;
+}
+
+.mmwp-terms-block__meta {
+	margin: 0 0 0.5em;
+	font-size: 0.875em;
+	opacity: 0.8;
+}
+
+.mmwp-terms-block__effective::before {
+	content: "·";
+	margin: 0 0.5em;
+}
+
+.mmwp-terms-block__summary p {
+	margin: 0 0 0.5em;
+}
+
+.mmwp-terms-block__open {
+	cursor: pointer;
+}
+
+.mmwp-terms-block__history {
+	margin-top: 1em;
+}
+
+.mmwp-terms-block__history summary {
+	cursor: pointer;
+}
+
+.mmwp-terms-block__history-list {
+	list-style: none;
+	margin: 0.75em 0 0;
+	padding: 0;
+}
+
+.mmwp-terms-block__history-item {
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+	padding: 0.75em 0;
+}
+
+/* The modal. z-index sits below the acceptance popup's 999999 — if a user is
+   being prompted to accept, that prompt stays on top. */
+.mmwp-terms-block__modal {
+	position: fixed;
+	inset: 0;
+	z-index: 99999;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.mmwp-terms-block__modal[hidden] {
+	display: none;
+}
+
+.mmwp-terms-block__dialog {
+	background: #fff;
+	color: #1e1e1e;
+	width: 100%;
+	max-width: 720px;
+	max-height: 85vh;
+	overflow-y: auto;
+	border-radius: 4px;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+	padding: 24px 28px;
+}
+
+.mmwp-terms-block__title {
+	margin-top: 0;
+}
+
+.mmwp-terms-block__title:empty {
+	display: none;
+}
+
+.mmwp-terms-block__body {
+	margin-bottom: 1em;
+}
+
+.mmwp-terms-block__close {
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+# Development-only files. Excluded from the distributed zip (mmwp-release build) and
+# from the SVN sync. Plugin Check runs against the built zip, not the tree.
+# Root-only entries are anchored with a leading "/" so they do not strip nested paths.
+/.git
+/.github
+/.gitignore
+/.gitlab-ci.yml
+/.distignore
+/.publishignore
+.DS_Store
+/.scratch
+/.phpcs-cache
+/.phpunit.result.cache
+/.wordpress-org
+/bin
+/tests
+/docs
+/dist
+/build
+/node_modules
+/phpcs.xml.dist
+/phpstan.neon.dist
+/phpunit.xml.dist
+/self-test
+/CLAUDE.md
+/CHANGELOG.md
+/PLAN.md
+/README.md
+*.zip
+/HOOKS.md

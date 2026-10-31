@@ -1,0 +1,15 @@
+parameters:
+    level: 6
+    treatPhpDocTypesAsCertain: false
+    bootstrapFiles:
+        - tests/phpstan-bootstrap.php
+    paths:
+        - mammoth-acceptance-logs.php
+        - uninstall.php
+        - src
+    scanDirectories:
+        - vendor/mammothwp/wp-kit/src
+        - vendor/mammothwp/wp-self-test/src
+    scanFiles:
+        - vendor/mammothwp/wp-kit/bootstrap.php
+    ignoreErrors: []
